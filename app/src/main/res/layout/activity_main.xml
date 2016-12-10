@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.calculationtest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/explan"
+            android:text="@string/explan" />
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/qs"
+                android:text="@string/qs1" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_qs1"
+                style="@style/radio">
+
+                <RadioButton
+                    android:id="@+id/radio_button_no1"
+                    style="@style/radio"
+                    android:checked="true"
+                    android:text="6" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_no2"
+                    style="@style/radio"
+                    android:text="9" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_no3"
+                    style="@style/radio"
+                    android:text="2" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/qs"
+                android:text="@string/qs2" />
+
+            <CheckBox
+                android:id="@+id/q2_checkbox_01"
+                style="@style/checkbox"
+                android:text="@string/x1" />
+
+            <CheckBox
+                android:id="@+id/q2_checkbox_02"
+                style="@style/checkbox"
+                android:text="@string/x2" />
+
+            <CheckBox
+                android:id="@+id/q2_checkbox_03"
+                style="@style/checkbox"
+                android:text="@string/x3" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/qs"
+                android:text="@string/qs3" />
+
+            <EditText
+                android:id="@+id/q3_edittext_x"
+                style="@style/edittext"
+                android:hint="@string/q3_edittext_x" />
+
+            <EditText
+                android:id="@+id/q3_edittext_y"
+                style="@style/edittext"
+                android:hint="@string/q3_edittext_y" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/qs"
+                android:text="@string/qs4" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_qs4"
+                style="@style/radio">
+
+                <RadioButton
+                    android:id="@+id/radio_bq4_01"
+                    style="@style/radio"
+                    android:checked="true"
+                    android:text="22" />
+
+                <RadioButton
+                    android:id="@+id/radio_bq4_02"
+                    style="@style/radio"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/radio_bq4_03"
+                    style="@style/radio"
+                    android:text="13" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/button"
+            android:onClick="submit"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</ScrollView>

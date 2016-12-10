@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CalculationTest</string>
+    
+    <string name="explan">plase check the right answer bellow</string>
+
+    <string name="qs1">
+        question 1 :  1 + 1 = ?
+    </string>
+
+    <string name="submit">submit</string>
+
+    <string name="qs2">
+       question 2: x = 2+3*5 which is true bellow ?
+    </string>
+
+    <string name="x1">
+        x > 10
+    </string>
+
+    <string name="x2">
+        x > 15
+    </string>
+
+    <string name="x3">
+        x > 20
+    </string>
+
+    <string name="qs3">
+       question 3: x + y = 5 and x * y = 6 x=? y=?
+    </string>
+
+    <string name="q3_edittext_x">
+        write the value of x here
+    </string>
+
+    <string name="q3_edittext_y">
+        write the value of y here
+    </string>
+
+    <string name="qs4">
+        question 4: 5+8=?
+    </string>
+
+</resources>
